@@ -1,11 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my portfolio</title>
-</head>
-<body>
-    <h1>This is my portfolio</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swikrity - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">Swikrity's Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h2>UI/UX Designer</h2>
+        <h1>Hi, I'm <span class="highlight">Swikrity A.C. </span></h1>
+        <p>I am a motivated first semester BSC.CSIT student.</p>
+      </div>
+      <div class="image">
+        <img src="./assets/profile1.jpg" alt="Swikrity" />
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div class="about-left">
+        <img src="./assets/aboutme.jpg" alt="Your Image" />
+      </div>
+      <div class="about-right">
+        <h2>About Me</h2>
+        <p>
+          Motivated BSc. CSIT student with a passion for technology and
+          innovation. Eager to explore emerging trends in tech, enhance my
+          skills, and contribute to real-world projects. Enthusiastic about
+          problem-solving, software development, and continuous learning to make
+          a meaningful impact in this field.
+        </p>
+        <h3>Skills</h3>
+        <ul>
+          <li><strong>UI/UX:</strong> Designing Web/App interfaces</li>
+          <li><strong>Web Development:</strong>html,css and js</li>
+          <li><strong>Programming Language:</strong> C,C++,Python</li>
+        </ul>
+
+        <h3>Education</h3>
+        <p>Bachelor's in computer science.</p>
+      </div>
+    </section>
+    <section id="services">
+      <h2>My Services</h2>
+      <div class="service-container">
+        <div class="service-box">
+          <i class="fas fa-code"></i>
+          <h3>Web Design</h3>
+          <p>
+            I specialize in creating modern, responsive, and user-friendly
+            websites. My goal is to design visually appealing and functional
+            websites that enhance user experience..
+          </p>
+        </div>
+        <div class="service-box">
+          <i class="fas fa-paint-brush"></i>
+          <h3>UI/UX Design</h3>
+          <p>
+            I create intuitive and user-friendly interfaces that enhance user
+            experience. My designs focus on simplicity, usability, and aesthetics.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="contact-section">
+      <div class="contact-left">
+        <h2>Contact Me</h2>
+        <p><i class="fas fa-envelope"></i> swikrityac31@gmail.com</p>
+        <p><i class="fas fa-phone"></i> 9769307347</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/share/1BfgsakSDa/" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://github.com/SwikrityAC91"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/swikrity_a.c._?igsh=bDJ6ODJyZWh6ZmZq"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/swikrity-a-c-664949335"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <button class="cv-button">Download CV</button>
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <footer>
+      <p>Thankyou for visiting my portfoilo! Feel free to connect with me.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
